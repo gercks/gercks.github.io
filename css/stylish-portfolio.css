@@ -73,14 +73,20 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/compucat.png");
+  /* color: white; */
+  /* -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: blue; */
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("https://i.ytimg.com/vi/4CUvF95pmxY/maxresdefault.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover; }
   .masthead h1 {
     font-size: 4rem;
     margin: 0;
-    padding: 0; }
+    padding: 0;
+    /* -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white; */
+   }
   @media (min-width: 992px) {
     .masthead {
       height: 100vh; }
@@ -294,6 +300,7 @@ a {
 .headshot {
   height: 200px;
   border-radius: 50%;
+  margin: 20px;
 }
 
 .skills {
