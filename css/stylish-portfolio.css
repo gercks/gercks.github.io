@@ -200,6 +200,7 @@ h6 {
   position: relative;
   overflow: hidden;
   max-width: 530px;
+  margin-bottom: 30px;
   margin: auto auto 1rem; }
   .portfolio-item .caption {
     display: flex;
@@ -306,3 +307,28 @@ a {
 .skills {
   height: 100px;
 }
+
+.skilltype {
+  color: #ecb807;
+}
+
+.emailme {
+  margin-top: 30px;
+}
+
+.portlinks {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 100;
+}
+/* .card-img-top {
+  height: 100%;
+  width: 100%;
+} */
+ .tallerimg {
+   height: 400px;
+ }
+
+ .tallerimg2 {
+   height: 375px;
+ }
